@@ -1,1 +1,7 @@
-<a href="/oauth_github">Github</a>
+<div id="top"><p>GitHubのOAuthを利用した２クリック採用ツールです。<br />
+ここでは押してもリクルーティングしないので押してみてください</p>
+
+<p class="CNT" style="text-decoration:blink">↓↓↓今すぐ応募！↓↓</p>
+<p class="CNT"><a href="/oauth_github"><img src="/images/imgres.jpeg" alt="GitHub"/></a></p>
+<p class="CNT" style="font-size:10px;">※これはステマです</p>
+</div>

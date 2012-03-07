@@ -54,6 +54,7 @@ post '/complete' => sub {
     );
     my $user = from_json( $gh->user->show() );
     my $name = $user->{login};
+    my $comment = param('comment');
 
     my $repos    = from_json( $gh->repos->list );
     my $issues   = from_json( $gh->issue->issues() );
@@ -87,6 +88,7 @@ post '/complete' => sub {
             issues       => $i,
             pullrequests => $p,
             gists        => $g,
+            comments     => $comment,
             created_at   => \'now()',
             updated_at   => \'now()'
         }

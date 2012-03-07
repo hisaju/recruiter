@@ -1,4 +1,5 @@
 <form action="/complete" method="post">
-
-<input type="submit" value="応募する">
+<p class="CNT" style="font-size:16px;line-height:18px;">志望動機や意気込みを！</p>
+<p class="CNT"><textarea id="comment" name="comment"></textarea></p>
+<p class="CNT"><input type="submit" class="submit" value="応募する" class="button"></p>
 </form>

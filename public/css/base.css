@@ -1,0 +1,113 @@
+/* CSS Document */
+
+/*■初期設定*/
+body{	color:#000000;/*通常のテキストカラー*/}
+a{	color:#0099FF;/*通常のリンクテキストカラー*/}
+a:hover{
+	color:#FF9900;/*マウスが乗った時の通常のリンクテキストカラー*/
+	text-decoration:underline;/*マウスが乗った時下線を表示（つけない場合は underline を none へ）*/
+}
+/*■初期設定ここまで*/
+
+*{ margin:0; padding:0;}
+img{ border:0;}
+table,div{	margin:auto;}
+
+/*■フォントサイズ調整*/
+body {
+    font-size: 13px; /* モダンブラウザ */
+    *font-size: small; /* IE 7 */
+    *font: x-small; /* IE 6以下 */
+	font-family:'メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+}
+p,th,td,li{
+	font-size:16px;
+	*font-size:90%;
+	*font:80%;
+}
+body{
+	text-align:center;
+}
+.CNT{ text-align:center;}
+.L{ text-align:left;}
+.R{ text-align:right;}
+
+#container{
+	width:830px;
+	margin:auto;
+	text-align:left;
+}
+
+#head h1{
+	text-align:right;
+	height:20px;
+	line-height:20px;
+	font-size:11px;
+	color:#333333;
+	font-weight:normal;
+	text-indent:0px;
+}
+#head_up{
+	background:url(/images/bg_head_up.gif);
+	height:188px;
+}
+#head_up h2{
+	font-size:25px;
+	line-height:25px;
+	font-weight:normal;
+	padding:140px 0 0 70px;
+}
+#head_up h2 a{
+	text-decoration:none;
+	color:#003366;
+}
+#head_mdl{
+	background:url(/images/bg_head_mdl.gif);
+	height:74px;
+}
+#head_mdl p{
+	padding:14px 120px 0 500px;
+	font-size:16px;
+	line-height:18px;
+}
+#head_menu{
+	background:url(/images/bg_head_menu.gif);
+	height:126px;
+}
+#head_menu ul{
+	list-style-type:none;
+	padding:26px 0 0 130px;
+}
+#head_menu ul li{
+	float:left;
+	font-size:14px;
+}
+#head_menu ul li a{
+	color:#333333;
+	text-decoration:none;
+}
+#head_menu ul li a:hover{
+	color:#FF6600;
+	text-decoration:underline;
+}
+
+#foot_sps{
+	clear:left;
+	height:10px;
+}
+#foot{
+	background:url(/images/bg_main_btm.gif);
+	height:60px;
+}
+#copy{
+	text-align:center;
+	font-size:11px;
+}
+#copy a{
+	color:#000000;
+	text-decoration:none;
+}
+#copy a:hover{
+	color:#000000;
+}
+
