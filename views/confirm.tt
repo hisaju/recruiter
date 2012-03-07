@@ -1,0 +1,4 @@
+<form action="/complete" method="post">
+
+<input type="submit" value="応募する">
+</form>
