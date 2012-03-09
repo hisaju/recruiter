@@ -23,7 +23,7 @@ session_dir: "../shared/dancer-sessions"
 #template: "simple"
 gh_client_id: "fa51807d54e215bb7bcc"
 gh_secret: "0511d23714487e52041e8b241ddd46fe132c31d7"
-gh_redirect: "http://localhost:3000/ghregist"
+gh_redirect: "http://recruiter.hisaju.org/ghregist"
 
 template: "template_toolkit"
 engines:
